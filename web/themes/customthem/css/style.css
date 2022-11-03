@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import '../fonts/font-awesome/css/font-awesome.min.css';
+.search-block-form {
+  display: none;
+}
+
+#block-backgroundatfrontpage {
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover !important;
+}
+#block-backgroundatfrontpage .field--name-body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+#block-backgroundatfrontpage .field--name-body p {
+  padding: 0 15px;
+  display: inline;
+  line-height: 70px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#block-services {
+  padding: 80px 0;
+  background-color: #4bcaff;
+  color: #fff;
+}
+#block-services .paragraph {
+  margin-bottom: 30px;
+}
+#block-services .block-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#block-services .block-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: white;
+  bottom: -10px;
+}
+#block-services .field--name-field-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#block-services .field--name-field-description {
+  font-size: 12px;
+}
+
+.block-views-blockgallery-front-block-1 {
+  position: relative;
+  margin: 80px 0;
+}
+.block-views-blockgallery-front-block-1 h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #515f67;
+}
+.block-views-blockgallery-front-block-1 h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: #515f67;
+  bottom: -10px;
+}
+.block-views-blockgallery-front-block-1 .view-portfolio-filters {
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+.block-views-blockgallery-front-block-1 .view-portfolio-filters .view-content {
+  display: flex;
+  gap: 30px;
+}
+.block-views-blockgallery-front-block-1 .view-portfolio-filters .view-content button {
+  color: #515f67;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: unset;
+  border: unset;
+}
+.block-views-blockgallery-front-block-1 .view-portfolio-filters .view-content button:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+  padding: 13px;
+}
+.block-views-blockgallery-front-block-1 .view-portfolio-filters .view-content button.is-active {
+  background-color: unset;
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+  padding: 13px;
+}
+
+.view-gallery-front .views-row {
+  margin-bottom: 30px;
+}
+.view-gallery-front .views-field-field-ga a {
+  position: relative;
+  display: block;
+  color: white;
+}
+.view-gallery-front .views-field-field-ga a:hover::after {
+  position: absolute;
+  content: "+";
+  width: 36px;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -39px;
+  font-size: 55px;
+  font-weight: 300;
+}
+.view-gallery-front .views-field-field-ga a:hover::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#block-aboutus {
+  background-color: #515f67;
+  padding: 80px 0;
+  color: #fff;
+}
+#block-aboutus .block-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#block-aboutus .block-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: white;
+  bottom: -10px;
+}
+#block-aboutus .field--name-field-link {
+  background-color: unset;
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+#block-aboutus .field--name-field-link a {
+  color: #fff;
+}
+
+#block-twitter {
+  padding: 80px 0;
+  background-color: #4bcaff;
+  color: #fff;
+}
+#block-twitter .block-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#block-twitter .block-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: white;
+  bottom: -10px;
+}
+
+#block-whoisjohndoe {
+  background-size: cover !important;
+  padding: 80px 0;
+  color: #fff;
+}
+#block-whoisjohndoe .raw {
+  display: flex;
+  align-items: end;
+}
+#block-whoisjohndoe .block-title {
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#block-whoisjohndoe .block-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: white;
+  bottom: -10px;
+}
+#block-whoisjohndoe .field--name-field-social-icons {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+#block-whoisjohndoe .field--name-field-social-icons .field--item {
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  border-radius: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#block-whoisjohndoe .field--name-field-social-icons i {
+  font-size: 24px;
+  color: white;
+}
+
+.block-views-blockcomments-block-1 {
+  padding: 80px 0;
+}
+.block-views-blockcomments-block-1 .block-title {
+  color: #515f67;
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.block-views-blockcomments-block-1 .block-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: #515f67;
+  bottom: -10px;
+}
+.block-views-blockcomments-block-1 .views_slideshow_cycle_slide {
+  background-color: unset !important;
+  color: #515f67;
+}
+.block-views-blockcomments-block-1 .views_slideshow_cycle_slide .views-field-body {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.block-views-blockcomments-block-1 .views_slideshow_cycle_slide .views-field-field-author {
+  color: #4bcaff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+header.navbar {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0;
+}
+
+#block-customthem-main-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+#block-customthem-main-menu li a {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+}
+#block-customthem-main-menu li a:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+  padding: 13px;
+}
+#block-customthem-main-menu li a.is-active {
+  background-color: unset;
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+  padding: 13px;
+}
+
+.navbar-collapse {
+  flex: 1 1 auto;
+}
+
+body.navbar-is-fixed-top {
+  margin-top: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.messages__wrapper {
+  display: none;
+}
+
+.block-webform {
+  background-color: #4bcaff;
+  padding: 80px 0;
+  color: white;
+}
+.block-webform .block-title {
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.block-webform .block-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 48px;
+  background-color: #fff;
+  bottom: -10px;
+}
+.block-webform .form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.block-webform .form-wrapper input {
+  background: unset;
+  border: 2px solid white;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.block-webform .form-item {
+  width: 100%;
+}
+.block-webform label {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.block-webform button {
+  width: 30%;
+  min-height: 50px;
+  background: unset;
+  border: 2px solid white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.block-webform #edit-message {
+  background: unset;
+  border: 2px solid white;
+  height: 150px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}

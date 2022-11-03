@@ -1,0 +1,30 @@
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import'../fonts/font-awesome/css/font-awesome.min.css';
+
+// Blocks
+
+@import 'block/search';
+@import 'block/background_frontpage';
+@import 'block/services';
+@import 'block/portfolio';
+@import 'block/about_us';
+@import 'block/twitter';
+@import 'block/whoisjohndoe';
+@import 'block/comments';
+
+// Pages
+
+@import 'pages/frontpage';
+
+//Components
+
+@import 'commponents/header';
+@import 'commponents/main_styles';
+@import 'commponents/form';
+
+// Variables
+
+@import 'variables/base';
+@import 'variables/color';

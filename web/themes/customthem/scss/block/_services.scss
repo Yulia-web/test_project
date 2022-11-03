@@ -1,0 +1,39 @@
+#block-services {
+  padding: 80px 0;
+  background-color: #4bcaff;
+  color: #fff;
+
+  .paragraph {
+    margin-bottom: 30px;
+  }
+
+  .block-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 2px;
+      width: 48px;
+      background-color: white;
+      bottom: -10px;
+    }
+  }
+
+  .field--name-field-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .field--name-field-description {
+    font-size: 12px;
+  }
+}
