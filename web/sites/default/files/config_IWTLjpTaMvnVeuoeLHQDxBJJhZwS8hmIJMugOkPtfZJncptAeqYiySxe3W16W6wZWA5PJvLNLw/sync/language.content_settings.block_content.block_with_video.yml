@@ -1,0 +1,11 @@
+uuid: 6dadaeff-3c12-4483-8bfa-f7ab8c895eae
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_with_video
+id: block_content.block_with_video
+target_entity_type_id: block_content
+target_bundle: block_with_video
+default_langcode: site_default
+language_alterable: false

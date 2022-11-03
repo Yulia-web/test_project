@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: uk
+uuid: 3293fd6a-98b5-4a09-908f-0b89be200749
+name: Test
+mail: site@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/12
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

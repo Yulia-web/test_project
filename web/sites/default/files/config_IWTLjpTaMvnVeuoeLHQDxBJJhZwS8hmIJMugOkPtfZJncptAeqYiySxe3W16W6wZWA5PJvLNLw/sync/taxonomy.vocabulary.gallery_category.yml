@@ -1,0 +1,8 @@
+uuid: b9f04cc0-9e93-4b9e-92e6-5d6294337b28
+langcode: uk
+status: true
+dependencies: {  }
+name: 'gallery category'
+vid: gallery_category
+description: ''
+weight: 0

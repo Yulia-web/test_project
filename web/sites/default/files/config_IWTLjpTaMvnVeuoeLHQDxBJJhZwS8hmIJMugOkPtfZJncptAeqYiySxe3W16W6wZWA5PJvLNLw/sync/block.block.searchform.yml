@@ -1,0 +1,29 @@
+uuid: 371f7bc1-6867-4e91-8f00-249acfa3be92
+langcode: uk
+status: true
+dependencies:
+  module:
+    - language
+    - search
+  theme:
+    - customthem
+id: searchform
+theme: customthem
+region: navigation_collapsible
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      uk: uk

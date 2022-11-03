@@ -1,0 +1,45 @@
+uuid: d62dce0e-af9f-4f53-a705-eec7244c43e7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon_title_description.field_description
+    - field.field.paragraph.icon_title_description.field_icon
+    - field.field.paragraph.icon_title_description.field_title
+    - image.style.icon
+    - paragraphs.paragraphs_type.icon_title_description
+  module:
+    - image
+    - text
+id: paragraph.icon_title_description.default
+targetEntityType: paragraph
+bundle: icon_title_description
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icon:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: icon
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

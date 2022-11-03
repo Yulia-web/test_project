@@ -1,0 +1,22 @@
+uuid: ce99ff3e-09e0-4891-9d4c-82232bf9ba32
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: drupalbook_powered
+theme: drupalbook
+region: navigation
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

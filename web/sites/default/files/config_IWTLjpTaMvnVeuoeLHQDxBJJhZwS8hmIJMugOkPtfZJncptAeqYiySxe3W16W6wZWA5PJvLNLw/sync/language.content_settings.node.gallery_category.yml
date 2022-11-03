@@ -1,0 +1,11 @@
+uuid: 7f197da2-9a5f-4729-8238-70a69099568d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.gallery_category
+id: node.gallery_category
+target_entity_type_id: node
+target_bundle: gallery_category
+default_langcode: site_default
+language_alterable: false

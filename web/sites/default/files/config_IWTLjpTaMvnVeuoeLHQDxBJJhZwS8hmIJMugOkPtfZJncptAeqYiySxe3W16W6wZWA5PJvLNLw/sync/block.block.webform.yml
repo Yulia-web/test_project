@@ -1,0 +1,30 @@
+uuid: fdaf6936-d85b-4b46-9377-37dee4322488
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact_us
+  module:
+    - system
+    - webform
+  theme:
+    - customthem
+id: webform
+theme: customthem
+region: content
+weight: 1
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contact us'
+  label_display: visible
+  provider: webform
+  webform_id: contact_us
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

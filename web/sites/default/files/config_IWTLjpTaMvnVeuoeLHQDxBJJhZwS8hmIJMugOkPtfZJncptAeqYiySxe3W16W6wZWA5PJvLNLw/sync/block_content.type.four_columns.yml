@@ -1,0 +1,8 @@
+uuid: 65563e5e-47a1-4cab-9d48-203ccfb0b187
+langcode: uk
+status: true
+dependencies: {  }
+id: four_columns
+label: 'four columns'
+revision: 0
+description: ''

@@ -1,0 +1,23 @@
+uuid: 88878516-9d50-4366-af97-4d6e6bf8bdcf
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.foto_slider
+  module:
+    - text
+id: node.foto_slider.body
+field_name: body
+entity_type: node
+bundle: foto_slider
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

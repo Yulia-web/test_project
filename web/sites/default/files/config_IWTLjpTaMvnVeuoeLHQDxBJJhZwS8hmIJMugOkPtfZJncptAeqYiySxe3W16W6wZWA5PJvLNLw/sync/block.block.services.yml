@@ -1,0 +1,30 @@
+uuid: 64fb1509-ea31-4c4c-8195-e56fcc6fac1d
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:four_columns:7d01d982-950c-417a-9dbe-7cfd99366bb7'
+  module:
+    - block_content
+    - system
+  theme:
+    - customthem
+id: services
+theme: customthem
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:7d01d982-950c-417a-9dbe-7cfd99366bb7'
+settings:
+  id: 'block_content:7d01d982-950c-417a-9dbe-7cfd99366bb7'
+  label: Services
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

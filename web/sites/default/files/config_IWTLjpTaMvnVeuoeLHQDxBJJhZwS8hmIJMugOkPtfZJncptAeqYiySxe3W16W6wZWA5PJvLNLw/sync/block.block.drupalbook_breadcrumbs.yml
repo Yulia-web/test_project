@@ -1,0 +1,22 @@
+uuid: b56a9b7c-a104-478b-a397-0e9ecbe6b7e0
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: drupalbook_breadcrumbs
+theme: drupalbook
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Рядки навіґації'
+  label_display: '0'
+  provider: system
+visibility: {  }

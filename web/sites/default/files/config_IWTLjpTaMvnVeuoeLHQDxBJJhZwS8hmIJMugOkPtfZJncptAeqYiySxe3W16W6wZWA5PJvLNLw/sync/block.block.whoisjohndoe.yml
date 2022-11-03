@@ -1,0 +1,30 @@
+uuid: 15a68394-2e3b-4dc5-ba91-e6550833256c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_social_media:a5c3c404-0053-455a-9530-d5868db3dbc6'
+  module:
+    - block_content
+    - system
+  theme:
+    - customthem
+id: whoisjohndoe
+theme: customthem
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:a5c3c404-0053-455a-9530-d5868db3dbc6'
+settings:
+  id: 'block_content:a5c3c404-0053-455a-9530-d5868db3dbc6'
+  label: 'Who is John Doe?'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

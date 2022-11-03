@@ -1,0 +1,11 @@
+uuid: 18cf112f-ac55-4b14-9619-e8655caf2796
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.four_columns
+id: block_content.four_columns
+target_entity_type_id: block_content
+target_bundle: four_columns
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: 5a9de02e-4014-4643-a0d2-e4f61aca7a19
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: drupalbook_content
+theme: drupalbook
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

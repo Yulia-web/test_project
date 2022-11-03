@@ -1,0 +1,8 @@
+uuid: eb6c2afd-59c1-4b0b-a55b-0059bc983af9
+langcode: uk
+status: true
+dependencies: {  }
+id: text_with_background
+label: 'text + background image'
+revision: 0
+description: ''

@@ -1,0 +1,29 @@
+uuid: a00b2c69-5815-4dfa-a0d5-0143d8fbbc1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.gallery_front
+  module:
+    - system
+    - views
+  theme:
+    - customthem
+id: views_block__gallery_front_block_1
+theme: customthem
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:gallery_front-block_1'
+settings:
+  id: 'views_block:gallery_front-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

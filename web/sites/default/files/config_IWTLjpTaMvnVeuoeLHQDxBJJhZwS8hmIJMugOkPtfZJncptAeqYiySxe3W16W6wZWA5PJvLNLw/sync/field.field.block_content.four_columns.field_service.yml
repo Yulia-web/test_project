@@ -1,0 +1,31 @@
+uuid: 646f2417-ba45-418d-8b3f-82463672cda2
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.four_columns
+    - field.storage.block_content.field_service
+    - paragraphs.paragraphs_type.icon_title_description
+  module:
+    - entity_reference_revisions
+id: block_content.four_columns.field_service
+field_name: field_service
+entity_type: block_content
+bundle: four_columns
+label: service
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      icon_title_description: icon_title_description
+    negate: 0
+    target_bundles_drag_drop:
+      icon_title_description:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,11 @@
+uuid: 0fbca82a-fd4a-4585-b4a9-52c6eef1b250
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.foto_slider
+id: node.foto_slider
+target_entity_type_id: node
+target_bundle: foto_slider
+default_langcode: site_default
+language_alterable: false

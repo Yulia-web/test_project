@@ -1,0 +1,30 @@
+uuid: c048b0a8-ac56-44b6-8749-529db04cf1c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ad464990-e17a-4201-91c7-cab2cd760b0f'
+  module:
+    - block_content
+    - system
+  theme:
+    - customthem
+id: twitter
+theme: customthem
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:ad464990-e17a-4201-91c7-cab2cd760b0f'
+settings:
+  id: 'block_content:ad464990-e17a-4201-91c7-cab2cd760b0f'
+  label: Twitter
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

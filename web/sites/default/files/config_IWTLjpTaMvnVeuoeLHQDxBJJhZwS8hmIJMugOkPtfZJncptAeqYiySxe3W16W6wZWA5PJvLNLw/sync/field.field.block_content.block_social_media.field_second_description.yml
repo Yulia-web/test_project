@@ -1,0 +1,21 @@
+uuid: c0f49a45-290c-4d64-ae15-958d55a502a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_social_media
+    - field.storage.block_content.field_second_description
+  module:
+    - text
+id: block_content.block_social_media.field_second_description
+field_name: field_second_description
+entity_type: block_content
+bundle: block_social_media
+label: 'second description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

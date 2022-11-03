@@ -1,0 +1,45 @@
+uuid: 178246d4-4fe0-475c-b5d8-22a62a79bd68
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon_title_description.field_description
+    - field.field.paragraph.icon_title_description.field_icon
+    - field.field.paragraph.icon_title_description.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.icon_title_description
+  module:
+    - image
+    - text
+id: paragraph.icon_title_description.default
+targetEntityType: paragraph
+bundle: icon_title_description
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

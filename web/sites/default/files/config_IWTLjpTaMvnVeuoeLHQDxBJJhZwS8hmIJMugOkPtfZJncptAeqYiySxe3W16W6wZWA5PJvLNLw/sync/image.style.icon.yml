@@ -1,0 +1,15 @@
+uuid: e38c4b64-808c-4ee4-8546-784a44218a93
+langcode: uk
+status: true
+dependencies: {  }
+name: icon
+label: icon
+effects:
+  7702d2a9-10ab-41fb-8543-0d8c96ba6e31:
+    uuid: 7702d2a9-10ab-41fb-8543-0d8c96ba6e31
+    id: image_scale
+    weight: 1
+    data:
+      width: 40
+      height: 40
+      upscale: true

@@ -1,0 +1,29 @@
+uuid: 0df6880a-744d-4aa1-9316-c28cf8aabede
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments
+  module:
+    - system
+    - views
+  theme:
+    - customthem
+id: views_block__comments_block_1
+theme: customthem
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:comments-block_1'
+settings:
+  id: 'views_block:comments-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

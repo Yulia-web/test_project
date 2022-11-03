@@ -1,0 +1,34 @@
+uuid: 229b4eb4-4c56-4f0d-a487-cafa9db9671c
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.four_columns
+    - field.field.block_content.four_columns.body
+    - field.field.block_content.four_columns.field_service
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.four_columns.default
+targetEntityType: block_content
+bundle: four_columns
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_service:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,30 @@
+uuid: 09272911-3cfa-48d3-bef4-17170d9b2ffc
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:text_with_background:49be6099-55f9-4e1e-a928-7e0f7121187a'
+  module:
+    - block_content
+    - system
+  theme:
+    - customthem
+id: backgroundatfrontpage
+theme: customthem
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:49be6099-55f9-4e1e-a928-7e0f7121187a'
+settings:
+  id: 'block_content:49be6099-55f9-4e1e-a928-7e0f7121187a'
+  label: 'background at front page'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

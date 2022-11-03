@@ -1,0 +1,20 @@
+uuid: a868f714-3a9e-45fe-917a-e152d5d5f6e0
+langcode: en
+status: true
+dependencies: {  }
+name: 540x540
+label: 540x540
+effects:
+  546a91e7-e04b-4711-b3bc-d74e5db910dc:
+    uuid: 546a91e7-e04b-4711-b3bc-d74e5db910dc
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 540
+      height: 540
+      anchor: center-center
+  8f3379d0-ad0c-4b2e-b603-81327bfb7ee9:
+    uuid: 8f3379d0-ad0c-4b2e-b603-81327bfb7ee9
+    id: image_desaturate
+    weight: 2
+    data: {  }

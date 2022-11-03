@@ -1,0 +1,20 @@
+uuid: b0e77e3a-afff-49e3-9da2-d5358f074b82
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: drupalbook_page_title
+theme: drupalbook
+region: navigation
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility: {  }

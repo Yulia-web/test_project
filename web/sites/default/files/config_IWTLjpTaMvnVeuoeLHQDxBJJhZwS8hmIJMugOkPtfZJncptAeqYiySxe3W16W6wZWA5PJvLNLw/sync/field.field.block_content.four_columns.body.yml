@@ -1,0 +1,23 @@
+uuid: b0033030-b277-4362-9683-3920d6c8dc84
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.four_columns
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.four_columns.body
+field_name: body
+entity_type: block_content
+bundle: four_columns
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

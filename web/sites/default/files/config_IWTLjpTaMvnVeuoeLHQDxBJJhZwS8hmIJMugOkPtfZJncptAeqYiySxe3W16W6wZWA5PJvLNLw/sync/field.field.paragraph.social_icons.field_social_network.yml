@@ -1,0 +1,21 @@
+uuid: cb37e2ad-ef21-4f42-9da1-101d67a07173
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_social_network
+    - paragraphs.paragraphs_type.social_icons
+  module:
+    - options
+id: paragraph.social_icons.field_social_network
+field_name: field_social_network
+entity_type: paragraph
+bundle: social_icons
+label: 'social network'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

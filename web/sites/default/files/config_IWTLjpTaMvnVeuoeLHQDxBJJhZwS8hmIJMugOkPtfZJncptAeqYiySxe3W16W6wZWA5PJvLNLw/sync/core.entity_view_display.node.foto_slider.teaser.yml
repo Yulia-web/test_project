@@ -1,0 +1,33 @@
+uuid: 555dba91-9ab8-4471-9e5a-2c6a5f4d96c8
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.foto_slider.body
+    - field.field.node.foto_slider.field_images
+    - node.type.foto_slider
+  module:
+    - text
+    - user
+id: node.foto_slider.teaser
+targetEntityType: node
+bundle: foto_slider
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_images: true
+  langcode: true

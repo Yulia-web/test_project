@@ -1,0 +1,11 @@
+uuid: 435fda9e-e658-49d2-9558-edde8eaddfaa
+langcode: uk
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.gallery_category
+id: taxonomy_term.gallery_category
+target_entity_type_id: taxonomy_term
+target_bundle: gallery_category
+default_langcode: site_default
+language_alterable: false

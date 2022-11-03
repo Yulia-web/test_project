@@ -1,0 +1,25 @@
+uuid: a01516c1-edd6-461c-9233-0d1ae0955483
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: drupalbook_site_branding
+theme: drupalbook
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

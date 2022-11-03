@@ -1,0 +1,23 @@
+uuid: d095bd1f-ba02-4b81-887f-3019434a19ce
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: drupalbook_search_form_wide
+theme: drupalbook
+region: navigation
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Форма пошуку (широка)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,34 @@
+uuid: 9719118a-1e22-48cf-bdd3-f09b25e3b6ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_social_media
+    - field.storage.block_content.field_social_icons
+    - paragraphs.paragraphs_type.social_icons
+  module:
+    - entity_reference_revisions
+id: block_content.block_social_media.field_social_icons
+field_name: field_social_icons
+entity_type: block_content
+bundle: block_social_media
+label: 'social icons'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      social_icons: social_icons
+    negate: 0
+    target_bundles_drag_drop:
+      icon_title_description:
+        weight: 3
+        enabled: false
+      social_icons:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

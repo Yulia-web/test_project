@@ -1,0 +1,8 @@
+uuid: d876ff1e-2303-45aa-b1c8-ec78fd0a152f
+langcode: en
+status: true
+dependencies: {  }
+id: block_social_media
+label: 'block social media'
+revision: 0
+description: ''

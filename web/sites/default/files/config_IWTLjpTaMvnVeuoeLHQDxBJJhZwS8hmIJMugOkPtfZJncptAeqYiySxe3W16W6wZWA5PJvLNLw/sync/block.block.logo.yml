@@ -1,0 +1,25 @@
+uuid: bc506638-aa4c-496f-b0cf-c0ef38f854d0
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:29382e6a-b2a7-4c2c-b7e0-3d45291e15cc'
+  module:
+    - block_content
+  theme:
+    - customthem
+id: logo
+theme: customthem
+region: navigation
+weight: -1
+provider: null
+plugin: 'block_content:29382e6a-b2a7-4c2c-b7e0-3d45291e15cc'
+settings:
+  id: 'block_content:29382e6a-b2a7-4c2c-b7e0-3d45291e15cc'
+  label: logo
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

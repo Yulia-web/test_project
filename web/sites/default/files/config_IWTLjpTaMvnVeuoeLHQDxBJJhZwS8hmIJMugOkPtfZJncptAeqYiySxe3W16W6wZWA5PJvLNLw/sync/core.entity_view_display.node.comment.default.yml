@@ -1,0 +1,38 @@
+uuid: 32ffd216-2f1e-4466-9c4e-1943de0a9c1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.comment.body
+    - field.field.node.comment.field_author
+    - node.type.comment
+  module:
+    - text
+    - user
+id: node.comment.default
+targetEntityType: node
+bundle: comment
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_author:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
