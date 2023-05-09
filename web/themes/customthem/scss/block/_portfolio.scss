@@ -3,6 +3,7 @@
 .block-views-blockgallery-front-block-1 {
   position: relative;
   margin: 80px 0;
+  overflow: hidden;
 
   @media(max-width: $bp-sm) {
     margin: 40px 0;
