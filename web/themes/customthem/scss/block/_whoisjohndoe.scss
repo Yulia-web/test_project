@@ -6,6 +6,10 @@
   .raw {
     display: flex;
     align-items: end;
+
+    @media(max-width: $bp-sm) {
+      flex-wrap: wrap;
+    }
   }
 
   .block-title {
@@ -31,6 +35,10 @@
     display: flex;
     gap: 30px;
     margin-top: 20px;
+
+    @media(max-width: $bp-xs-wide) {
+      gap: 15px;
+    }
 
     .field--item {
       border: 2px solid white;

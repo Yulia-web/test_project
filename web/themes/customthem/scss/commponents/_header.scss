@@ -41,3 +41,43 @@ header.navbar {
 body.navbar-is-fixed-top {
   margin-top: 0;
 }
+
+@media(max-width: 768px) {
+  header.navbar {
+    height: 90px;
+  }
+
+  header .container-fluid {
+    margin: unset;
+    padding: unset;
+
+    .container {
+      position: fixed;
+      width: 100%;
+      top: 60px;
+    }
+  }
+
+  #block-customthem-main-menu {
+    justify-content: center;
+  }
+
+  .collapse.in {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    right: 15px;
+    top: 60px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .region-navigation {
+      flex: 1 1 auto;
+    }
+  }
+}

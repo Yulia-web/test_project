@@ -1,6 +1,16 @@
+@import "../variables/base";
+
 .block-views-blockgallery-front-block-1 {
   position: relative;
   margin: 80px 0;
+
+  @media(max-width: $bp-sm) {
+    margin: 40px 0;
+
+    .form-group {
+      margin-top: 50px;
+    }
+  }
 
   h2 {
     position: relative;
@@ -27,9 +37,20 @@
     top: -80px;
     right: 0;
 
+    @media(max-width: $bp-sm) {
+      top: -61px;
+      left: 12px;
+      width: 100%;
+    }
+
     .view-content {
       display: flex;
       gap: 30px;
+
+      @media(max-width: 1024px) {
+        gap: 10px;
+        flex-wrap: wrap;
+      }
 
       button {
         color: #515f67;
@@ -39,13 +60,22 @@
         padding: 15px;
         background-color: unset;
         border: unset;
-      
+
+        @media(max-width: $bp-sm) {
+          font-size: 14px;
+          padding: unset;
+
+          &.active {
+            border-bottom: 1px solid #4bcaff;
+          }
+        }
+
         &:hover {
           color: #4bcaff;
           border: 2px solid #4bcaff;
           padding: 13px;
         }
-      
+
         &.is-active {
           background-color: unset;
           color: #4bcaff;
@@ -88,6 +118,15 @@
           background-color: rgba(0,0,0, 0.5);
           width: 100%;
           height: 100%;
+        }
+      }
+
+      img {
+        width: 100%;
+        object-fit: cover;
+
+        @media(max-width: 1024px) {
+          max-height: 400px;
         }
       }
     }
