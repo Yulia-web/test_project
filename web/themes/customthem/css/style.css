@@ -104,15 +104,16 @@
 
 .block-views-blockgallery-front-block-1 .view-portfolio-filters {
   position: absolute;
-  top: -80px;
-  right: 0;
+  top: -10px;
+  padding-left: 265px;
 }
 
 @media (max-width: 768px) {
   .block-views-blockgallery-front-block-1 .view-portfolio-filters {
-    top: -61px;
+    top: 65px;
     left: 12px;
     width: 100%;
+    padding-left: unset;
   }
 }
 
@@ -144,7 +145,10 @@
     padding: unset;
   }
   .block-views-blockgallery-front-block-1 .view-portfolio-filters .view-content button.active {
-    border-bottom: 1px solid #4bcaff;
+    border: unset !important;
+    border-bottom: 1px solid #4bcaff !important;
+    padding: 0 !important;
+    color: #515f67 !important;
   }
 }
 
@@ -402,6 +406,7 @@ header.navbar {
   color: #4bcaff;
   border: 2px solid #4bcaff;
   padding: 13px;
+  text-align: center;
 }
 
 .navbar-collapse {
@@ -423,7 +428,7 @@ body.navbar-is-fixed-top {
   header .container-fluid .container {
     position: fixed;
     width: 100%;
-    top: 60px;
+    top: 20px;
   }
   #block-customthem-main-menu {
     justify-content: center;

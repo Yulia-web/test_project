@@ -35,11 +35,11 @@
 
   .view-portfolio-filters {
     position: absolute;
-    top: -80px;
-    right: 0;
-
+    top: -10px;
+    right: 50px;
+    
     @media(max-width: $bp-sm) {
-      top: -61px;
+      top: 65px;
       left: 12px;
       width: 100%;
     }

@@ -30,6 +30,7 @@ header.navbar {
       color: #4bcaff;
       border: 2px solid #4bcaff;
       padding: 13px;
+      text-align: center;
     }
   }
 }
@@ -54,7 +55,7 @@ body.navbar-is-fixed-top {
     .container {
       position: fixed;
       width: 100%;
-      top: 60px;
+      top: 20px;
     }
   }
 
